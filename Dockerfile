@@ -8,7 +8,6 @@ RUN python3 -m ensurepip
 RUN cd /usr/bin
 RUN ln -s python3 python
 RUN ln -s pip3 pip
-RUN pip install -r requirements.txt
 
 COPY .bashrc /root/.bashrc
 WORKDIR /root
