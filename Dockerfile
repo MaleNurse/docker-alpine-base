@@ -12,4 +12,4 @@ RUN ln -s pip3 pip
 COPY .bashrc /root/.bashrc
 WORKDIR /root
 
-ENTRYPOINT [ "/bin/bash", "-c"]
+ENTRYPOINT [ "/bin/bash"]
